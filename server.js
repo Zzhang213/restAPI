@@ -6,9 +6,9 @@ const PORT = process.env.PORT || 5000;
 app.use(express.json());
 
 let students = [
-  { id: 1, name: 'Tom', age: 16 },
-  { id: 2, name: 'David', age: 17 },
-  { id: 3, name: 'Bob', age: 18 },
+  { id: 1, name: 'Bob', age: 16 },
+  { id: 2, name: 'Dave', age: 17 },
+  { id: 3, name: 'Jane', age: 18 },
 ];
 
 // Routes
